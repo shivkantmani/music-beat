@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-color: #02383C;
+  background-image: url("images/music.png");
+}
+
+h1 {
+  font-size: 5rem;
+  color: #eb781a;
+  font-family: 'Yatra One', cursive;
+  text-shadow: 3px 0 #eded4a;
+
+}
+
+
+footer {
+  color: #205162;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.a {
+  background-image: url("images/crash.png");
+}
+
+.s{
+  background-image: url("images/kick.png");
+}
+
+.d {
+  background-image: url("images/snare.png");
+}
+
+.v {
+  background-image: url("images/tom1.png");
+}
+
+.b {
+  background-image: url("images/tom4.png");
+}
+
+.n {
+  background-image: url("images/tom3.png");
+}
+
+.m {
+  background-image: url("images/tom2.png");
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #eb781a;
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: 900;
+  color: #02383C;
+  text-shadow: 3px 0 #205162;
+  border-radius: 25px;
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  margin: 25px;
+  background-color: white;
+}
